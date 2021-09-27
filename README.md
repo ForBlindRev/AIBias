@@ -51,8 +51,6 @@ After training, runing the file ``data_augmentation.py`` to do the augmentation 
 python data_augmentation -train_path <PATH_TO_TRAINING_DATA> -model_path <PATH_TO_TRAINED_MODEL> -in_path <PATH_TO_IN_DISTRIBUTION_DATA> -out_path <PATH_TO_OUT_OF_DISTRIBUTION_DATA> -batch_size <BATCH_SIZE> -quantile <QUANTILE_TO_SPLIT_DATA> -save_path <PATH_TO_SAVE_BALANCED_AUG_DATA> -aug_save_path <PATH_TO_SAVE_AUG_DATA>
 ```
 ### Results
-OOD-Scores comparision for Unbalanced and Balanced DNN model:
-<center><img src="./results/OOD_comparision.png" width='70%'></center>
 
 Augmentation OOD-Scores
 <center><img src="./results/distribution_augmentation.png" width='70%'></center>
